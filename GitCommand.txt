@@ -1,0 +1,34 @@
+Git Command Line
+
+Email: kaz.iyiola@gmail.com    username: kaz   password: 
+Email: kaz2.iyiola@gmail.com   username: kaz2
+Email: kaz3.iyiola@gmail.com   username: kaz3
+
+
+git --version     ---------------check git version
+
+git config --list   -------------show list of config
+
+git config --global user.name "kaz"                  ------settup user
+git config --global user.email "kaz.iyiola@gmail.com"------setup user
+
+clear -----------------------------------------------------clear screen
+pwd  -------------------------------------------------------print working directory
+ls----------------------------------------------------------list
+cd desktop -------------------------------------------------change directory to desktop
+cd ~       -------------------------------------------------change to root directory
+creating and initialise git project
+cd destop/Gitproject----------------------------------------change directory to git project
+git init ---------------------------------------------------Initialisation of project
+ls----------------------------------------------------------list file / folder
+ls -a ------------------------------------------------------list hidden file
+
+  ------gIT allow maintain diff version of file and save file 
+WorkFLOW process of stage that happen before file can be save
+3 STAGE in Git    ----  1. local  2.Staging area (btw local & git) Change Git commit    3.Saved/Commit that sit on repostory git. 
+git status ------------------------------------------show what in git file
+git add.---------------------------------------------wrong code
+git add Why testing.tex (name of file)
+git commit -m "My First Commit"-------------------------------------------
+git status
+git log -----------------------------------------History of git commit
